@@ -1,0 +1,14 @@
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\bin\Debug\net8.0\ConsoleApp1tisho.exe
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\bin\Debug\net8.0\ConsoleApp1tisho.deps.json
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\bin\Debug\net8.0\ConsoleApp1tisho.runtimeconfig.json
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\bin\Debug\net8.0\ConsoleApp1tisho.dll
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\bin\Debug\net8.0\ConsoleApp1tisho.pdb
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.AssemblyInfo.cs
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.dll
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\refint\ConsoleApp1tisho.dll
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.pdb
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ConsoleApp1tisho.genruntimeconfig.cache
+C:\Users\Student\Desktop\tishoskic#\ConsoleApp1tisho\ConsoleApp1tisho\obj\Debug\net8.0\ref\ConsoleApp1tisho.dll
