@@ -1,39 +1,38 @@
-﻿//Приложение чрез което се определя дали три въведени страни на тригълник и ако е изпълнено условието, да се определи вида на триъгълника
+﻿using System;
 
-using System;
-
-namespace Zadachicikli
+namespace ZadachiMasiv2
 {
-    internal class Program
+    internal class Zadacha2
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
-            int b = int.Parse(Console.ReadLine());
-            int c = int.Parse(Console.ReadLine());
-            if (a+b>c  && a+c>b && b+c>a)
+            int size = int.Parse(Console.ReadLine());
+            double[] myArr = new double[size];
+            for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("Образува триъгълник");
-            }
-            else
-            {
-                Console.WriteLine("Не образува триъгълник");
-            }
-            if (a==b && b==c)
-            {
-                Console.WriteLine("Равностранен триъгълник");
+                myArr[i] = double.Parse(Console.ReadLine());
+
 
             }
-            if (a == b || b == c || a == c)
-            {
-                Console.WriteLine("Равнобедрен триъгълник");
 
-            }
-            else
+            for (int i = 0; i < size; i++)
             {
-                Console.WriteLine("Разностранен триъгълник");
+                if(myArr[i]%2 == 0)
+                {
+                    Console.WriteLine($"myArr Chetni[{i+1}]= {myArr[i]}");
+                }
+                else
+                {
+                    Console.WriteLine($"myArr NeChetni[{i + 1}]= {myArr[i]}"); 
+                }
+               
             }
-            
+    
+                /*foreach (double item in myArr)
+                {
+                    Console.WriteLine(item);
+
+                }*/
         }
     }
 }
