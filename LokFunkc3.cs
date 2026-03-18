@@ -10,12 +10,12 @@ namespace LokFunkc1
         static void StepenNaVtora(int chislo)
         {
             int stepen2 = chislo * chislo;
-            Console.WriteLine($"{chislo} íà âòîðà ñòåïåí å: {stepen2}");
+            Console.WriteLine($"{chislo} на втора степен е: {stepen2}");
         }
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Âúâåäåòå ÷èñëî:");
+            Console.WriteLine("Въведете число:");
             int chislo = int.Parse(Console.ReadLine());
             StepenNaVtora(chislo);
 
