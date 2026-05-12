@@ -4,33 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab10._1
+namespace SoftDrink
 {
-    class CocaCola : SoftDrink
+    class CocaCola : Softdrink
     {
         protected double procentskofein;
         public CocaCola()
         {
 
         }
-        public CocaCola(double procentskofein, string mqstoCola, int Colazahar) : base()
+        public CocaCola(double cen, double procentz, string mqstO, double procentkofe) : base(cen, procentz, mqstO)
         {
-            this.procentskofein = procentskofein;
-            mqsto = mqstoCola;
-            procentszahar = Colazahar;
+            procentskofein = procentkofe;
+
         }
-        
-        public void InputC()
+
+        public void PrintCocaCola()
         {
-            Console.WriteLine("Информация за кока кола: ");
+            
             Console.WriteLine("Въведи процент кофеин: ");
             procentskofein = double.Parse(Console.ReadLine());
-        }
 
-        public void OutputC()
+        }
+        public void PrintCocaColaInfo()
         {
-            Console.WriteLine($"Процента кофеин е: {procentskofein}");
-        }
+            Console.WriteLine("Информация за Кока-Кола:");
+            Console.WriteLine($"Процент кофеин: {procentskofein} %");
 
+
+
+        }
     }
 }
