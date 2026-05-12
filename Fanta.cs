@@ -1,31 +1,32 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab10._1
+namespace SoftDrink
 {
-    class Fanta : SoftDrink
+    class Fanta : Softdrink
     {
         protected double procentsplodsok;
 
-        public Fanta(double procentsplodsok, string mqstoFanta, double fantazahar) : base()
+        public Fanta(double cena, double procentz, double procentpl, string mqstO) : base(cena, procentz, mqstO)
         {
-            this.procentsplodsok = procentsplodsok;
-            mqsto = mqstoFanta;
-            procentszahar = fantazahar;
-            
+            procentsplodsok = procentpl;
+
+
         }
-        public void InputF()
-        {
-            Console.WriteLine("Информация за Фанта: ");
+        public void PrintFanta()
+        { 
             Console.WriteLine("Въведи съдържание процент плодов сок");
             procentsplodsok = double.Parse(Console.ReadLine());
+            
         }
-        public void OutputF()
+        public void PrintFantaInfo()
         {
-            Console.WriteLine($"Процента плодов сок е: {procentsplodsok}");
+            Console.WriteLine("Информация за Фанта:");
+            Console.WriteLine($"Процент плодов сок: {procentsplodsok} %");
         }
+
     }
 }
