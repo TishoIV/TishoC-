@@ -1,20 +1,18 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab10._1
+namespace SoftDrink
 {
     class CocaColaZero : CocaCola
     {
-        public CocaColaZero() : base()
+        public CocaColaZero(double cen, double procentz, string mqstO, double procentkofe) : base(cen, 0, mqstO, procentkofe)
         {
-            procentszahar = 0;
             
 
-        }
-        
 
+        }
     }
 }
