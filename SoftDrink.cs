@@ -1,32 +1,32 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab10._1
+namespace SoftDrink
 {
-    class SoftDrink
+    class Softdrink
     {
         protected double cena;
         protected double procentszahar;
         protected string mqsto;
 
-        public SoftDrink()
+        public Softdrink()
         {
 
         }
-        public SoftDrink(double cenA, double procent, string mqstO)
+        public Softdrink(double cen, double procentz, string mqstO)
         {
-            cena = cenA;
-            procentszahar = procent;
+            cena = cen;
+            procentszahar = procentz;
             mqsto = mqstO;
         }
-        
 
-        public void Input()
+
+        public void PrintDrink()
         {
-            Console.WriteLine("Информация за напитка: ");
+  
             Console.WriteLine("Въведи цена: ");
             cena = double.Parse(Console.ReadLine());
             Console.WriteLine("Въведи процент захар: ");
@@ -35,9 +35,11 @@ namespace lab10._1
             mqsto = Console.ReadLine();
 
         }
-        public void Output()
-        {
-            Console.WriteLine($"Цената е: {cena},  Захарта е: {procentszahar},  Мястото на производство е: {mqsto} ");
+            public void PrintDrinkInfo()
+            {
+                Console.WriteLine($"Цена: {cena} евро.");
+                Console.WriteLine($"Процент захар: {procentszahar} %");
+                Console.WriteLine($"Място на производство: {mqsto}");
         }
     }
 }
