@@ -1,13 +1,16 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab10._1
+namespace SoftDrink
 {
-    class FantaLemon
+    class FantaLemon : Fanta
     {
-       
+        public FantaLemon(double cena, double procentz, double procentpl, string mqstO) : base(cena, procentz, procentpl, mqstO)
+        {
+           
+        }
     }
 }
